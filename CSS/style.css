@@ -66,7 +66,7 @@ a:link{
 }
 
 .services ul{
-    list-style-image: url(/img/gear-removebg-preview.png);
+    list-style-image: url(../img/gear-removebg-preview.png);
 }
 
 .section-container strong{
@@ -82,9 +82,12 @@ a:link{
     padding-bottom: 15px;
 }
 
+.services-column{
+    position: relative;
+}
 
 .services button{
-    position: relative;
+    position: absolute;
     bottom: 0;
     color: white;
     background-color: #213349;
@@ -95,11 +98,17 @@ a:link{
 }
 
 .opp button{
+    position: absolute;
+    bottom: 0;
     color: white;
     background-color: #213349;
 }
 .opp ul{
-    list-style-image: url(/img/bubble.jpg);
+    list-style-image: url(../img/bubble.jpg);
+}
+
+.news ul{
+    padding: 10rem
 }
 
 .news button{
@@ -143,4 +152,15 @@ a:link{
     }
 }
 
+@media (min-width: 768px) {
+    .article1, .article2{
+        border-top: 1px solid #a9a9a9;
+        border-right: 1px solid #a9a9a9;
+    }
+}
 
+@media (min-width: 768px) {
+    .article3{
+        border-top: 1px solid #a9a9a9;
+    }
+}
